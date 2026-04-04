@@ -1,3 +1,13 @@
+## Error search in Py file
+python -m py_compile main.py
+
+
+
+
+
+
+
+
 # Py-Test
 Test Twilio credentials in isolation
 
@@ -26,3 +36,4 @@ try:
     print(f"\nSuccess! Account status: {account.status}")
 except Exception as e:
     print(f"\nError: {e}")
+
